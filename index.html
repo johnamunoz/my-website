@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>John Aden Munoz | Electrical Engineering Student</title>
+<meta name="description" content="Electrical Engineering student at UTSA building websites and web games.">
+<style>
+  :root { --bg:#0e1116; --card:#161b22; --line:#2a313c; --text:#e6edf3; --muted:#9aa4b2; --accent:#ffc700; --accent2:#00a19d; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
+  a { color:var(--accent); }
+  .wrap { max-width:880px; margin:0 auto; padding:0 20px; }
+  header { padding:88px 0 56px; border-bottom:1px solid var(--line); }
+  .tag { color:var(--accent2); font-weight:600; letter-spacing:.08em; text-transform:uppercase; font-size:.8rem; }
+  h1 { font-size:clamp(2.2rem,6vw,3.4rem); line-height:1.1; margin:12px 0 16px; }
+  h1 span { color:var(--accent); }
+  .lead { color:var(--muted); font-size:1.15rem; max-width:620px; }
+  .btns { margin-top:28px; display:flex; gap:12px; flex-wrap:wrap; }
+  .btn { display:inline-block; padding:10px 18px; border-radius:8px; text-decoration:none; font-weight:600; border:1px solid var(--line); color:var(--text); }
+  .btn.primary { background:var(--accent); color:#111; border-color:var(--accent); }
+  section { padding:56px 0; border-bottom:1px solid var(--line); }
+  h2 { font-size:1.5rem; margin-bottom:20px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:22px; }
+  .card h3 { margin-bottom:6px; }
+  .card p { color:var(--muted); margin-bottom:14px; }
+  .card .links a { margin-right:14px; font-weight:600; }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; }
+  .chip { background:var(--card); border:1px solid var(--line); border-radius:999px; padding:6px 14px; font-size:.95rem; }
+  footer { padding:40px 0 60px; color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="tag">Electrical Engineering · UTSA Honors College</div>
+      <h1>Hi, I'm <span>John Aden Munoz</span>.</h1>
+      <p class="lead">I'm an Electrical Engineering student who likes hands-on hardware. Lately I've been building websites and web games, and I build sites for local businesses.</p>
+      <div class="btns">
+        <a class="btn primary" href="#projects">See my projects</a>
+        <a class="btn" href="https://www.linkedin.com/in/johnadenmunoz">LinkedIn</a>
+        <a class="btn" href="https://github.com/johnamunoz">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="projects">
+    <div class="wrap">
+      <h2>Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Water Quest</h3>
+          <p>A mobile-first web game concept for charity: water. Tap the yellow jerry cans to collect clean water before time runs out. Built with HTML, CSS and JavaScript.</p>
+          <div class="links"><a href="https://johnamunoz.github.io/water-quest/">Play it</a><a href="https://github.com/johnamunoz/water-quest">Code</a></div>
+        </div>
+        <div class="card">
+          <h3>charity: water landing page</h3>
+          <p>A landing page built from my own Canva mockup, using HTML, CSS and AI to speed up the layout. Part of the Global Career Accelerator externship.</p>
+          <div class="links"><a href="https://johnamunoz.github.io/CR-02-charity-water-lp/">View it</a><a href="https://github.com/johnamunoz/CR-02-charity-water-lp">Code</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>What I'm learning</h2>
+      <div class="chips">
+        <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span>
+        <span class="chip">GitHub Pages</span><span class="chip">CAD</span><span class="chip">Autodesk</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Outside class</h2>
+      <p class="lead">I work in sales, so I'm used to talking with customers and business owners about what they need, then building something that fits.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">© 2026 John Aden Munoz</div>
+  </footer>
+</body>
+</html>
